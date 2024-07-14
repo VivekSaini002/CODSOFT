@@ -65,7 +65,7 @@ class AtmOperationImpl implements AtmOperationInter{
     @Override
     public void viewMinistatement(){
         for (Map.Entry<Double,String> m:ministmt.entrySet()){
-            System.out.println(m.getKey()+ ""+ m.getValue());
+            System.out.println(m.getKey()+ " "+ m.getValue());
         }
     }
 }
